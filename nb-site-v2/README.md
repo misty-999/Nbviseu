@@ -31,7 +31,7 @@ Ficheiros em falta aparecem como espaços reservados elegantes.
 - `media/hero-mobile.mp4` — versão leve para telemóvel (720p ou menos)
 - `media/hero.jpg` — fotografia do hero (também é o fallback do vídeo)
 - `media/manifesto-2.jpg` — segunda fotografia da secção Sobre
-- `media/poster-exemplo-1..3.jpg` — cartazes de exemplo (apaga-os quando criares os eventos reais)
+- `media/poster-exemplo-*` — cartazes de demonstração (substitui-os quando criares os eventos reais)
 - `media/manifesto.jpg` — fotografia da pista ou da cabine de DJ
 - `media/galeria-01.jpg` ... `galeria-09.jpg` — galeria (edita a lista `PHOTOS` e os álbuns `ALBUMS` em `store.js`)
 - Posters dos eventos: `media/poster-xxx.jpg` (indica o caminho no painel) ou carrega a imagem diretamente no painel
