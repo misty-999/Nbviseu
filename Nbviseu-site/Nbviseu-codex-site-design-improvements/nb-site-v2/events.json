@@ -1,0 +1,51 @@
+[
+  {
+    "id": "funkween-mc-danny",
+    "title": "Funkween",
+    "artist": "MC Danny",
+    "date": "2026-10-30",
+    "time": "23:00",
+    "poster": "media/poster-funkween.jpg",
+    "ticketUrl": "https://2ticket.pt/faveladona/events-list",
+    "doorUrl": "",
+    "published": true,
+    "demo": false,
+    "description": "Funkween com MC Danny, no NB Club Viseu."
+  },
+  {
+    "id": "exemplo-1",
+    "title": "Noite de exemplo",
+    "artist": "DJ a anunciar",
+    "date": "",
+    "time": "",
+    "poster": "media/poster-exemplo-1.jpg",
+    "ticketUrl": "",
+    "published": true,
+    "demo": true,
+    "description": "Conteúdo de exemplo para mostrar como aparece um evento no site. Substitui-o pelos eventos reais no painel de administração."
+  },
+  {
+    "id": "exemplo-2",
+    "title": "Special night",
+    "artist": "Line-up a anunciar",
+    "date": "",
+    "time": "",
+    "poster": "media/poster-exemplo-2.jpg",
+    "ticketUrl": "",
+    "published": true,
+    "demo": true,
+    "description": "Conteúdo de exemplo, sem data oficial. Não corresponde a nenhuma festa real do NB."
+  },
+  {
+    "id": "exemplo-3",
+    "title": "After dark",
+    "artist": "",
+    "date": "",
+    "time": "",
+    "poster": "media/poster-exemplo-3.jpg",
+    "ticketUrl": "",
+    "published": true,
+    "demo": true,
+    "description": "Conteúdo de exemplo. Quando existirem eventos reais, adiciona o poster, a data, o horário e a ligação para bilhetes ou reservas."
+  }
+]
