@@ -14,7 +14,7 @@
   },
   {
     "id": "exemplo-1",
-    "title": "Noite de exemplo",
+    "title": "Pulsar",
     "artist": "DJ a anunciar",
     "date": "",
     "time": "",
@@ -26,11 +26,11 @@
   },
   {
     "id": "exemplo-2",
-    "title": "Special night",
-    "artist": "Line-up a anunciar",
+    "title": "Ritual",
+    "artist": "Artistas a anunciar",
     "date": "",
     "time": "",
-    "poster": "media/poster-exemplo-2.jpg",
+    "poster": "media/poster-exemplo-2.webp",
     "ticketUrl": "",
     "published": true,
     "demo": true,
@@ -38,14 +38,38 @@
   },
   {
     "id": "exemplo-3",
-    "title": "After dark",
-    "artist": "",
+    "title": "Até tarde",
+    "artist": "Convidados a anunciar",
     "date": "",
     "time": "",
-    "poster": "media/poster-exemplo-3.jpg",
+    "poster": "media/poster-exemplo-3.webp",
     "ticketUrl": "",
     "published": true,
     "demo": true,
     "description": "Conteúdo de exemplo. Quando existirem eventos reais, adiciona o poster, a data, o horário e a ligação para bilhetes ou reservas."
+  },
+  {
+    "id": "exemplo-4",
+    "title": "Luz vermelha",
+    "artist": "Alinhamento a anunciar",
+    "date": "",
+    "time": "",
+    "poster": "media/poster-exemplo-4.webp",
+    "ticketUrl": "",
+    "published": true,
+    "demo": true,
+    "description": "Evento visual de demonstração. Substitui este conteúdo quando anunciares a próxima noite."
+  },
+  {
+    "id": "exemplo-5",
+    "title": "Sessão 1998",
+    "artist": "Convidados a anunciar",
+    "date": "",
+    "time": "",
+    "poster": "media/poster-exemplo-5.webp",
+    "ticketUrl": "",
+    "published": true,
+    "demo": true,
+    "description": "Evento visual de demonstração. Substitui este conteúdo quando anunciares a próxima noite."
   }
 ]

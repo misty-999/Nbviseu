@@ -526,20 +526,18 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
   .ev-more > .eyebrow { font-size: .55rem; }
   .ev-more .h-md { font-size: 2rem; margin-bottom: 22px; }
   .more-list {
-    display: flex;
-    gap: 12px;
-    overflow-x: auto;
-    margin-right: -14px;
-    padding-right: 14px;
-    scroll-snap-type: x mandatory;
-    scrollbar-width: none;
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:22px 10px;
+    overflow:visible;
+    margin:0;
+    padding:0;
   }
-  .more-list::-webkit-scrollbar { display: none; }
-  .more-item { flex: 0 0 76vw; display: grid; grid-template-columns: 1fr auto; gap: 9px; scroll-snap-align: start; }
+  .more-item { min-width:0; display:grid; grid-template-columns:1fr auto; gap:8px; opacity:1!important; transform:none!important; }
   .more-image { grid-column: 1 / -1; grid-row: auto; }
   .more-image .media { aspect-ratio: 16 / 10; }
   .more-d { grid-column: 1 / -1; font-size: .55rem; }
-  .more-t { grid-column: 1; font-size: 1.1rem; }
+  .more-t { grid-column: 1; font-size: .95rem; }
   .more-item > .arr { grid-column: 2; grid-row: 3; }
 
   .footer { padding: 36px 18px 0; }

@@ -63,19 +63,29 @@
       description: 'Funkween com MC Danny, no NB Club Viseu.'
     },
     {
-      id: 'exemplo-1', title: 'Noite de exemplo', artist: 'DJ a anunciar',
+      id: 'exemplo-1', title: 'Pulsar', artist: 'DJ a anunciar',
       date: '', time: '', poster: 'media/poster-exemplo-1.jpg', ticketUrl: '', published: true, demo: true,
       description: 'Conteúdo de exemplo para mostrar como aparece um evento no site. Substitui-o pelos eventos reais no painel de administração.'
     },
     {
-      id: 'exemplo-2', title: 'Special night', artist: 'Line-up a anunciar',
-      date: '', time: '', poster: 'media/poster-exemplo-2.jpg', ticketUrl: '', published: true, demo: true,
+      id: 'exemplo-2', title: 'Ritual', artist: 'Artistas a anunciar',
+      date: '', time: '', poster: 'media/poster-exemplo-2.webp', ticketUrl: '', published: true, demo: true,
       description: 'Conteúdo de exemplo, sem data oficial. Não corresponde a nenhuma festa real do NB.'
     },
     {
-      id: 'exemplo-3', title: 'After dark', artist: '',
-      date: '', time: '', poster: 'media/poster-exemplo-3.jpg', ticketUrl: '', published: true, demo: true,
+      id: 'exemplo-3', title: 'Até tarde', artist: 'Convidados a anunciar',
+      date: '', time: '', poster: 'media/poster-exemplo-3.webp', ticketUrl: '', published: true, demo: true,
       description: 'Conteúdo de exemplo. Quando existirem eventos reais, adiciona o poster, a data, o horário e a ligação para bilhetes ou reservas.'
+    },
+    {
+      id: 'exemplo-4', title: 'Luz vermelha', artist: 'Alinhamento a anunciar',
+      date: '', time: '', poster: 'media/poster-exemplo-4.webp', ticketUrl: '', published: true, demo: true,
+      description: 'Evento visual de demonstração. Substitui este conteúdo quando anunciares a próxima noite.'
+    },
+    {
+      id: 'exemplo-5', title: 'Sessão 1998', artist: 'Convidados a anunciar',
+      date: '', time: '', poster: 'media/poster-exemplo-5.webp', ticketUrl: '', published: true, demo: true,
+      description: 'Evento visual de demonstração. Substitui este conteúdo quando anunciares a próxima noite.'
     }
   ];
 
