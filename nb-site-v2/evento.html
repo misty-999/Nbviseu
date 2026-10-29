@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Evento | NB Club Viseu</title>
+  <meta name="description" content="Detalhes do evento no NB Club Viseu: data, horário, localização e reservas.">
+  <meta name="theme-color" content="#080808">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <noscript><style>[data-reveal],.wi{opacity:1!important;transform:none!important}</style></noscript>
+</head>
+<body class="inner">
+  <a class="skip" href="#main">Saltar para o conteúdo</a>
+
+  <header class="nav scrolled" id="top">
+    <a class="logo" href="index.html" aria-label="NB — início">NB<i></i></a>
+    <nav aria-label="Principal">
+      <ul class="nav-links">
+        <li><a href="index.html#inicio">Início</a></li>
+        <li><a href="index.html#eventos">Eventos</a></li>
+        <li><a href="index.html#galeria">Galeria</a></li>
+        <li><a href="index.html#sobre">Sobre</a></li>
+        <li><a href="index.html#contactos">Contactos</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn-sm nav-cta" href="index.html#eventos"><span>PRÓXIMOS EVENTOS</span></a>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu"><span></span><span></span></button>
+  </header>
+
+  <div class="menu" id="menu" role="dialog" aria-label="Menu">
+    <a class="m" href="index.html#inicio" style="--i:0"><span>Início</span></a>
+    <a class="m" href="index.html#eventos" style="--i:1"><span>Eventos</span></a>
+    <a class="m" href="index.html#galeria" style="--i:2"><span>Galeria</span></a>
+    <a class="m" href="index.html#sobre" style="--i:3"><span>Sobre</span></a>
+    <a class="m" href="index.html#contactos" style="--i:4"><span>Contactos</span></a>
+    <a class="menu-ig" href="https://www.instagram.com/nbclubviseu/" target="_blank" rel="noopener">@nbclubviseu</a>
+  </div>
+
+  <main id="main" class="ev light">
+    <div class="ev-grid" id="evRoot" aria-live="polite" aria-busy="true">
+      <div class="ev-poster"><span class="media skel-block"></span></div>
+      <div class="ev-body"><div class="skel-line"></div><div class="skel-line w60"></div><div class="skel-line w80"></div></div>
+    </div>
+    <section class="ev-more" id="evMore" hidden aria-labelledby="more-h">
+      <h2 class="h-md" id="more-h">OUTRAS NOITES.</h2>
+      <div class="more-list" id="moreList"></div>
+    </section>
+  </main>
+
+  <footer class="footer footer-sm">
+    <div class="foot-cols">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="index.html#eventos">Eventos</a></li>
+        <li><a href="index.html#galeria">Galeria</a></li>
+      </ul>
+      <ul>
+        <li><a href="https://www.instagram.com/nbclubviseu/" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://www.google.com/maps/search/?api=1&amp;query=NB+Club+Viseu" target="_blank" rel="noopener">Google Maps</a></li>
+      </ul>
+    </div>
+    <p class="copy">&copy; <span data-year>2026</span> NB Club Viseu. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="store.js"></script>
+  <script src="common.js"></script>
+  <script src="evento.js"></script>
+</body>
+</html>

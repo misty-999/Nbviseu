@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NB Club Viseu | Discoteca e eventos em Viseu</title>
+  <meta name="description" content="NB Club Viseu: a discoteca no centro da cidade desde 1998. Próximos eventos, galeria das noites e contactos do NB em Viseu, Portugal.">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_PT">
+  <meta property="og:title" content="NB Club Viseu | Discoteca e eventos em Viseu">
+  <meta property="og:description" content="This is NB. The night starts here. Eventos, galeria e contactos do NB em Viseu.">
+  <!-- Quando tiveres domínio: adiciona <link rel="canonical"> e <meta property="og:image"> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="home.css">
+  <noscript><style>[data-reveal],.wi{opacity:1!important;transform:none!important}</style></noscript>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NightClub",
+    "name": "NB Club Viseu",
+    "slogan": "O teu club no centro da cidade",
+    "foundingDate": "1998",
+    "sameAs": ["https://www.instagram.com/nbclubviseu/"],
+    "address": { "@type": "PostalAddress", "addressLocality": "Viseu", "addressCountry": "PT" }
+  }
+  </script>
+</head>
+<body class="v2">
+  <a class="skip" href="#main">Saltar para o conteúdo</a>
+
+  <header class="nav" id="top">
+    <a class="logo" href="index.html" aria-label="NB — início">NB<i></i></a>
+    <nav aria-label="Principal">
+      <ul class="nav-links">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#eventos">Eventos</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contactos">Contactos</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn-sm nav-cta" href="#eventos"><span>PRÓXIMOS EVENTOS</span></a>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu"><span></span><span></span></button>
+  </header>
+
+  <div class="menu" id="menu" role="dialog" aria-label="Menu">
+    <a class="m" href="#inicio" style="--i:0"><span>Início</span></a>
+    <a class="m" href="#eventos" style="--i:1"><span>Eventos</span></a>
+    <a class="m" href="#galeria" style="--i:2"><span>Galeria</span></a>
+    <a class="m" href="#sobre" style="--i:3"><span>Sobre</span></a>
+    <a class="m" href="#contactos" style="--i:4"><span>Contactos</span></a>
+    <a class="menu-ig" href="https://www.instagram.com/nbclubviseu/" target="_blank" rel="noopener">@nbclubviseu</a>
+  </div>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" id="inicio" aria-label="NB — Viseu">
+      <div class="hero-media">
+        <video id="heroVideo" muted loop playsinline preload="metadata" aria-hidden="true" tabindex="-1"></video>
+      </div>
+      <div class="hero-wrap">
+        <div class="hero-in">
+          <p class="hero-loc" data-reveal style="--d:.1s">VISEU, PORTUGAL &middot; DESDE 1998</p>
+          <h1 class="hero-title" data-split="letters">THIS IS NB.</h1>
+          <p class="hero-sub" data-split="words">THE NIGHT STARTS HERE.</p>
+          <div class="hero-cta" data-reveal style="--d:.9s">
+            <a class="btn btn-primary" href="#eventos"><span>EXPLORAR EVENTOS</span>
+              <svg class="arr" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            <a class="btn btn-ghost" href="#galeria"><span>VER GALERIA</span></a>
+          </div>
+        </div>
+
+        <!-- Cartão da próxima noite (preenchido por JS) -->
+        <aside class="next" id="next" hidden aria-label="Próxima noite" data-reveal style="--d:1.1s"></aside>
+      </div>
+      <a class="scroll" href="#marquee" aria-label="Descer" data-reveal style="--d:1.4s"><span>SCROLL</span><i></i></a>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" id="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>THIS IS NB</span><i></i><span>VISEU</span><i></i><span>DESDE 1998</span><i></i><span>THE NIGHT STARTS HERE</span><i></i>
+        <span>THIS IS NB</span><i></i><span>VISEU</span><i></i><span>DESDE 1998</span><i></i><span>THE NIGHT STARTS HERE</span><i></i>
+        <span>THIS IS NB</span><i></i><span>VISEU</span><i></i><span>DESDE 1998</span><i></i><span>THE NIGHT STARTS HERE</span><i></i>
+        <span>THIS IS NB</span><i></i><span>VISEU</span><i></i><span>DESDE 1998</span><i></i><span>THE NIGHT STARTS HERE</span><i></i>
+      </div>
+    </div>
+
+    <!-- NÚMEROS -->
+    <section class="facts light" aria-label="O NB em números">
+      <div class="facts-in">
+        <div class="fact" data-reveal><b>1998</b><span>O NB abre portas no centro de Viseu</span></div>
+        <div class="fact" data-reveal style="--d:.08s"><b>17,5 mil</b><span>seguidores no Instagram</span></div>
+        <div class="fact" data-reveal style="--d:.16s"><b>Viseu</b><span>O teu club no centro da cidade</span></div>
+      </div>
+    </section>
+
+    <!-- EVENTOS -->
+    <section class="sec light" id="eventos" aria-labelledby="ev-h">
+      <div class="sec-top">
+        <div>
+          <p class="kicker" data-reveal><i></i>01 &mdash; Agenda</p>
+          <h2 class="h-xl" id="ev-h" data-split="words">UPCOMING NIGHTS.</h2>
+        </div>
+        <p class="sub" data-reveal>Descobre o que vem aí no NB.</p>
+      </div>
+      <div class="ev-list" id="evList" aria-busy="true">
+        <div class="ecard skel" aria-hidden="true"></div>
+        <div class="ecard skel" aria-hidden="true"></div>
+        <div class="ecard skel" aria-hidden="true"></div>
+      </div>
+      <p class="demo-note" id="evNote" hidden>Eventos de exemplo (sem data). Não correspondem a festas reais do NB.</p>
+    </section>
+
+    <!-- GALERIA -->
+    <section class="sec dark" id="galeria" aria-labelledby="gal-h">
+      <div class="sec-top">
+        <div>
+          <p class="kicker" data-reveal><i></i>02 &mdash; The night recap</p>
+          <h2 class="h-xl" id="gal-h" data-split="words">YOU HAD TO BE THERE.</h2>
+        </div>
+        <p class="sub" data-reveal>Momentos que ficam depois da noite acabar.</p>
+      </div>
+      <div class="filters" id="filters" role="group" aria-label="Filtrar por festa ou data"></div>
+      <div class="bento" id="bento"></div>
+      <p class="demo-note" id="galNote" hidden>Imagens de exemplo geradas para o layout. Substitui-as pelas fotografias reais do NB na pasta media.</p>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="sec about light" id="sobre" aria-labelledby="man-h">
+      <p class="kicker" data-reveal><i></i>03 &mdash; Sobre o NB</p>
+      <h2 class="h-xxl" id="man-h" data-split="words">MORE THAN A NIGHT.<br>IT'S A FEELING.</h2>
+      <div class="about-grid">
+        <div class="collage" data-reveal>
+          <div class="c1"><span class="media is-missing" data-parallax="0.06"><img src="media/manifesto.jpg" alt="Imagem de exemplo: luzes sobre a pista" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('is-missing');this.remove()"></span></div>
+          <div class="c2"><span class="media is-missing"><img src="media/manifesto-2.jpg" alt="Imagem de exemplo: ambiente da noite" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('is-missing');this.remove()"></span></div>
+          <p class="stamp" aria-hidden="true">SINCE<b>1998</b></p>
+        </div>
+        <div class="about-text">
+          <p class="lead" data-reveal>Desde 1998 que o NB é o club no centro de Viseu. Antes de ser um sítio, é uma sensação.</p>
+          <p data-reveal>O grave que chega ao peito antes de a primeira música acabar, as luzes a fechar o mundo lá fora, a pista cheia de gente que veio pelo mesmo motivo. Aqui, a noite faz-se de música e de pessoas: amigos que chegam juntos e saem com mais um, DJs e artistas que dão tudo em cima do palco, noites que ninguém planeou e que ninguém quer esquecer.</p>
+          <ul class="pillars">
+            <li data-reveal>
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M9 18V6l10-2v12"/><circle cx="6.5" cy="18" r="2.5"/><circle cx="16.5" cy="16" r="2.5"/></svg>
+              <div><h3>Música</h3><p>Artistas, DJs e noites temáticas.</p></div>
+            </li>
+            <li data-reveal style="--d:.08s">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.6 2.7-6 6-6s6 2.4 6 6"/><circle cx="17.5" cy="9" r="2.4"/><path d="M16.5 14.2c2.7.1 4.5 2 4.5 4.8"/></svg>
+              <div><h3>Pessoas</h3><p>Uma pista cheia de gente que veio pelo mesmo motivo.</p></div>
+            </li>
+            <li data-reveal style="--d:.16s">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1"/><circle cx="12" cy="12" r="3"/></svg>
+              <div><h3>Noites</h3><p>Das que ficam contigo muito depois de acenderem as luzes.</p></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOCIAL -->
+    <section class="sec dark social" id="social" aria-labelledby="soc-h">
+      <div class="sec-top">
+        <div>
+          <p class="kicker" data-reveal><i></i>04 &mdash; Comunidade</p>
+          <h2 class="h-xl" id="soc-h" data-split="words">STAY IN THE LOOP.</h2>
+        </div>
+        <p class="sub" data-reveal>Cartazes, aftermovies e novidades em primeira mão.</p>
+      </div>
+      <a class="ig-big" href="https://www.instagram.com/nbclubviseu/" target="_blank" rel="noopener" data-reveal>
+        <span>@nbclubviseu</span>
+        <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+      </a>
+      <div class="ig-posts" id="igPosts" hidden></div>
+      <ul class="soc-list" data-reveal>
+        <li><a class="link" href="https://www.instagram.com/nbclubviseu/" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a class="link" data-fb href="#" target="_blank" rel="noopener" hidden>Facebook</a></li>
+      </ul>
+    </section>
+
+    <!-- CONTACTOS -->
+    <section class="sec contacts light" id="contactos" aria-labelledby="con-h">
+      <div class="sec-top">
+        <div>
+          <p class="kicker" data-reveal><i></i>05 &mdash; Visita</p>
+          <h2 class="h-xl" id="con-h" data-split="words">FIND US.</h2>
+        </div>
+        <p class="sub" data-reveal>O teu club no centro da cidade.</p>
+      </div>
+      <div class="info-cards">
+        <article class="icard" data-reveal>
+          <h3>Localização</h3>
+          <p>NB Club<br>Viseu, Portugal</p>
+          <a class="btn btn-sm" id="mapBtn" href="https://www.google.com/maps/search/?api=1&amp;query=NB+Club+Viseu" target="_blank" rel="noopener"><span>ABRIR NO GOOGLE MAPS</span></a>
+        </article>
+        <article class="icard" data-reveal style="--d:.08s">
+          <h3>Reservas</h3>
+          <p id="resBody"></p>
+        </article>
+        <article class="icard" data-reveal style="--d:.16s">
+          <h3>Horários</h3>
+          <p id="hoursBody"></p>
+        </article>
+        <article class="icard" data-reveal style="--d:.24s">
+          <h3>Redes sociais</h3>
+          <p><a class="link" href="https://www.instagram.com/nbclubviseu/" target="_blank" rel="noopener">Instagram</a><br><a class="link" data-fb href="#" target="_blank" rel="noopener" hidden>Facebook</a></p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p class="foot-line" data-split="words">SEE YOU AFTER DARK.</p>
+    <div class="foot-cols">
+      <nav aria-label="Rodapé">
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#eventos">Eventos</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contactos">Contactos</a></li>
+        </ul>
+      </nav>
+      <ul>
+        <li><a href="https://www.instagram.com/nbclubviseu/" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a data-fb href="#" target="_blank" rel="noopener" hidden>Facebook</a></li>
+        <li><a href="https://www.google.com/maps/search/?api=1&amp;query=NB+Club+Viseu" target="_blank" rel="noopener">Google Maps</a></li>
+      </ul>
+      <ul>
+        <li>Viseu, Portugal</li>
+        <li><a href="admin.html">Área de gestão</a></li>
+      </ul>
+    </div>
+    <div class="foot-big" aria-hidden="true">NB</div>
+    <p class="copy">&copy; <span data-year>2026</span> NB Club Viseu. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Lightbox -->
+  <dialog class="lb" id="lb" aria-label="Galeria de fotografias">
+    <button class="lb-btn lb-close" id="lbClose" type="button" aria-label="Fechar">
+      <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 5l14 14M19 5 5 19"/></svg></button>
+    <button class="lb-btn lb-prev" id="lbPrev" type="button" aria-label="Fotografia anterior">
+      <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></button>
+    <figure class="lb-fig" id="lbFig"></figure>
+    <button class="lb-btn lb-next" id="lbNext" type="button" aria-label="Fotografia seguinte">
+      <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+    <p class="lb-cap" id="lbCap" aria-live="polite"></p>
+  </dialog>
+
+  <script src="store.js"></script>
+  <script src="common.js"></script>
+  <script src="home.js"></script>
+</body>
+</html>
