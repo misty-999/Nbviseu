@@ -194,3 +194,125 @@ body.v2 { background: #0c0c0c; }
 .contact-link:hover { color:var(--red); }
 @media(max-width:900px) { .info-cards { grid-template-columns:1fr 1fr; } .icard { border-bottom:1px solid var(--line); } .icard:nth-child(2) { border-right:0; } .icard:nth-child(3) { padding-left:0; } .contact-intro { grid-template-columns:1fr auto; } .contact-mark { display:none; } }
 @media(max-width:600px) { .social-story { grid-template-columns:1fr; gap:30px; } .social-frames { max-width:460px; } .social-copy h3 { font-size:3.2rem; } .contact-intro { gap:16px; padding:28px 0; } .contact-arrow { width:48px; height:48px; } .contact-intro .eyebrow { font-size:.6rem; } .info-cards { grid-template-columns:1fr; } .icard { border-right:0; padding:24px 0; min-height:190px; } }
+
+/* Experiência mobile: menos ruído, ações mais próximas e secções mais curtas */
+@media (max-width: 600px) {
+  .v2 .hero {
+    min-height: 100svh;
+    padding: 88px 18px 22px;
+    justify-content: center;
+  }
+  .hero-wrap { gap: 24px; }
+  .hero-loc { font-size: .56rem; letter-spacing: .2em; margin-bottom: .75rem; }
+  .hero-loc::before { width: 22px; }
+  .v2 .hero-title { font-size: clamp(2.75rem, 14vw, 3.7rem); margin-bottom: .8rem; }
+  .hero-sub { font-size: .66rem; letter-spacing: .2em; margin-bottom: 1.2rem; }
+  .hero-cta .btn { padding: .8rem 1rem; font-size: .63rem; }
+  .hero-cta .btn-ghost { display: none; }
+
+  .next { grid-template-columns: 76px 1fr; gap: 12px; padding: 10px; align-items: stretch; }
+  .next-img { aspect-ratio: 3 / 4; }
+  .next-body { gap: .22rem; }
+  .next-k { font-size: .53rem; letter-spacing: .15em; }
+  .next-k i { width: 6px; height: 6px; }
+  .next-t { font-size: 1.15rem; }
+  .next-a { font-size: .75rem; }
+  .next-d { font-size: .65rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .next .cd { display: none; }
+  .next .btn { margin-top: auto; padding: .62rem .8rem; font-size: .56rem; }
+
+  .marquee { padding: .65rem 0; }
+  .marquee-track { gap: 1.2rem; font-size: 1rem; padding-right: 1.2rem; }
+  .marquee-track i { width: 6px; height: 6px; }
+
+  .facts { padding: 0 18px; }
+  .facts-in { grid-template-columns: repeat(3, 1fr); }
+  .fact { padding: 20px 8px; border-bottom: 0; border-right: 1px solid var(--line); }
+  .fact:first-child { padding-left: 0; }
+  .fact:last-child { border-right: 0; padding-right: 0; }
+  .fact b { font-size: clamp(1.15rem, 6vw, 1.55rem); }
+  .fact span { display: none; }
+
+  .sec { padding: 58px 18px; }
+  .v2 .h-xl, .v2 .h-xxl { font-size: clamp(2.25rem, 11vw, 3rem); }
+  .sec-top { gap: .6rem; margin-bottom: 24px; }
+  .sec-top .sub { display: none; }
+  .kicker { font-size: .58rem; letter-spacing: .17em; margin-bottom: .75rem; }
+  .kicker i { width: 20px; }
+  .sec .demo-note { display: none; }
+
+  .ev-list {
+    display: flex;
+    gap: 14px;
+    overflow-x: auto;
+    margin-right: -18px;
+    padding: 0 18px 8px 0;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+  .ev-list::-webkit-scrollbar { display: none; }
+  .ecard { flex: 0 0 76vw; scroll-snap-align: start; gap: .8rem; }
+  .ephoto { aspect-ratio: 4 / 4.75; }
+  .emeta { font-size: .6rem; }
+  .etitle { font-size: 1.3rem; }
+  .eartist { font-size: .82rem; }
+  .efoot { margin-top: .35rem; padding-top: .65rem; }
+  .ebtn { font-size: .6rem; }
+
+  .filters { display: flex; overflow-x: auto; margin-right: -18px; padding-right: 18px !important; scrollbar-width: none; }
+  .filters::-webkit-scrollbar { display: none; }
+  .bento, .bento.few {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    margin-right: -18px;
+    padding-right: 18px;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+  .bento::-webkit-scrollbar { display: none; }
+  .bento .bt, .bento.few .bt { flex: 0 0 72vw; aspect-ratio: 4 / 5; scroll-snap-align: start; }
+
+  .about-grid { gap: 28px; margin-top: 28px; }
+  .collage { aspect-ratio: 4 / 3; }
+  .collage .c1 { width: 84%; height: 100%; }
+  .collage .c2 { width: 42%; height: 55%; border-width: 6px; }
+  .stamp { width: 76px; height: 76px; font-size: .45rem; }
+  .stamp b { font-size: 1.15rem; }
+  .about-text { gap: 1rem; }
+  .about-text .lead { font-size: 1.25rem; }
+  .about-text > p:not(.lead), .pillars p { display: none; }
+  .pillars { grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .pillars li { display: grid; gap: .6rem; padding: 14px 0; }
+  .pillars svg { width: 22px; height: 22px; }
+  .pillars h3 { font-size: .72rem; }
+
+  .social .sec-top { display: none; }
+  .social-story { gap: 24px; }
+  .social-copy .eyebrow, .social-copy > p { display: none; }
+  .social-copy h3 { font-size: 2.5rem; margin: 0 0 22px; }
+  .social-follow { margin-top: 0; padding-top: 18px; font-size: 1.15rem; }
+  .social-follow small { font-size: .5rem; }
+  .social-frames { display: block; padding: 0 0 24px; }
+  .social-frames figure:first-child img { aspect-ratio: 16 / 10; }
+  .social-frames figure:nth-child(2) { display: none; }
+  .social-frames figcaption { font-size: .5rem; }
+  .social-sticker { bottom: 5px; left: auto; right: 10px; padding: 11px 14px; font-size: .56rem; }
+  .social .soc-list { display: none; }
+
+  .contacts .sec-top { margin-bottom: 18px; }
+  .contact-intro { padding: 22px 0; margin-bottom: 0; }
+  .contact-intro .eyebrow, .contact-intro p:last-child { display: none; }
+  .contact-intro h3 { font-size: 2rem; margin: 0; }
+  .contact-arrow { width: 44px; height: 44px; font-size: 1.2rem; }
+  .info-cards { grid-template-columns: 1fr 1fr; }
+  .icard { min-height: 0; padding: 20px 12px; gap: .65rem; }
+  .icard:nth-child(odd) { padding-left: 0; border-right: 1px solid var(--line); }
+  .icard:nth-child(even) { padding-right: 0; }
+  .icard h3 { font-size: .55rem; letter-spacing: .12em; }
+  .icard p { display: none; }
+  .icard:first-child p { display: block; font-size: .82rem; line-height: 1.45; }
+  .icard .btn, .contact-link { margin-top: auto; padding: .65rem 0; font-size: .52rem; letter-spacing: .08em; }
+  .icard .btn { border: 0; border-bottom: 1px solid currentColor; }
+  .icard:nth-child(3), .icard:last-child { display: none; }
+}

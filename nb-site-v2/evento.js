@@ -66,7 +66,7 @@
         '</dl>' +
         '<div class="prose" data-reveal>' + paragraphs(e.description) + '</div>' +
         '<div class="ev-actions" data-reveal><p class="eyebrow">A tua próxima noite</p><h2>Encontramo-nos na pista.</h2>' + actions(e, ticket) + '</div>' +
-        '<div class="ev-guide" data-reveal><div><span class="eyebrow">01 / Planeia</span><h3>Antes de sair</h3><p>Confirma a data e o horário desta noite. Consulta a plataforma de bilhetes para condições de entrada e disponibilidade.</p></div><div><span class="eyebrow">02 / Fala connosco</span><h3>Vens em grupo?</h3><p>Para reservas ou dúvidas, envia uma mensagem ao NB.</p><a class="link" href="' + esc(C.instagram) + '" target="_blank" rel="noopener">Falar no Instagram ↗</a></div></div>' +
+        '<div class="ev-guide" data-reveal><div><span class="eyebrow">01 / Planeia</span><h3>Antes de sair</h3><p>Confirma a data e o horário desta noite. Consulta a plataforma de bilhetes para condições de entrada e disponibilidade.</p></div><div><span class="eyebrow">02 / Fala connosco</span><h3>Vens em grupo?</h3><p>Para reservas ou dúvidas, envia uma mensagem ao NB.</p><a class="link" href="' + esc(C.instagram) + '" target="_blank" rel="noopener">Falar no Instagram</a></div></div>' +
         (e.demo ? '<p class="demo-note left">Evento de demonstração. Não corresponde a uma festa real do NB.</p>' : '') +
       '</div>';
     window.NBUI.observe(root);
