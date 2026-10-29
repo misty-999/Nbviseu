@@ -262,7 +262,7 @@ body.v2 { background: #0c0c0c; }
   .ecard .tag { top:7px; right:7px; font-size:.5rem; }
   .emeta { font-size: .52rem; letter-spacing:.1em; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
   .etitle { font-size: 1.05rem; line-height:1; }
-  .eartist { display:none; }
+  .eartist { display:block; font-size:.68rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
   .efoot { margin-top: .35rem; padding-top: .65rem; }
   .ebtn { font-size: .52rem; letter-spacing:.1em; }
   .eprov { display:none; }

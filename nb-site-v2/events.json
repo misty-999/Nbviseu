@@ -15,7 +15,7 @@
   {
     "id": "exemplo-1",
     "title": "Pulsar",
-    "artist": "DJ a anunciar",
+    "artist": "Perez",
     "date": "",
     "time": "",
     "poster": "media/poster-exemplo-1.jpg",
@@ -27,7 +27,7 @@
   {
     "id": "exemplo-2",
     "title": "Ritual",
-    "artist": "Artistas a anunciar",
+    "artist": "DJ Rifox",
     "date": "",
     "time": "",
     "poster": "media/poster-exemplo-2.webp",
@@ -39,7 +39,7 @@
   {
     "id": "exemplo-3",
     "title": "Até tarde",
-    "artist": "Convidados a anunciar",
+    "artist": "Fifty",
     "date": "",
     "time": "",
     "poster": "media/poster-exemplo-3.webp",
@@ -51,7 +51,7 @@
   {
     "id": "exemplo-4",
     "title": "Luz vermelha",
-    "artist": "Alinhamento a anunciar",
+    "artist": "Perez · DJ Rifox",
     "date": "",
     "time": "",
     "poster": "media/poster-exemplo-4.webp",
@@ -63,7 +63,7 @@
   {
     "id": "exemplo-5",
     "title": "Sessão 1998",
-    "artist": "Convidados a anunciar",
+    "artist": "Fifty & convidados",
     "date": "",
     "time": "",
     "poster": "media/poster-exemplo-5.webp",
